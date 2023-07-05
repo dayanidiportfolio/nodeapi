@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api test",
+  "main": "app.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start":"node app.js",
+    "build": "cp -r src/ build/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayanidigv/api.git"
+  },
+  "author": "dayanidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dayanidigv/api/issues"
+  },
+  "homepage": "https://dayanidigv.github.io/api"
+}
