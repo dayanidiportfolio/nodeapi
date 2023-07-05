@@ -3,11 +3,11 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Build Hello, World!');
+  res.send('Src Hello, World!');
 });
 
 app.get('/api', (req, res) => {
-    res.send('Build Api process is done');
+    res.send('Src Api process is done');
   });
 
 app.listen(port, () => {
